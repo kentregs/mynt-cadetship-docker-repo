@@ -11,13 +11,13 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
     
-# route which will accept POST requests and return our model predictions
+# route which will accept POST requests and return our model prediction
 @app.route('/invocations', methods=['POST'])
 def prediction():
-    # load predictor models
+    # deserialize pickled LinearRegression model
     lr_model = joblib.load('/opt/ml/model/lr_model.pkl')
     
-    # prepare input data
+    # prepare JSON Request data
     content = request.json
     payload = np.array(content.get("floor")).reshape(-1, 1)
     
