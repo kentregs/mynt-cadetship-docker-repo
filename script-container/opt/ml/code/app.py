@@ -10,7 +10,7 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
     
-# route which will accept POST requests and return our model prediction
+# route which will accept POST requests and return model prediction/s
 @app.route('/invocations', methods=['POST'])
 def prediction():
     # deserialize pickled LinearRegression model
