@@ -1,4 +1,5 @@
 # dockerhub URLs:
+## exercises and homeworks:
 session-1: https://hub.docker.com/repository/docker/kentregs/exercise-1  
 session-2: https://hub.docker.com/repository/docker/kentregs/deploy
 - version 12: exer1
@@ -7,7 +8,7 @@ session-2: https://hub.docker.com/repository/docker/kentregs/deploy
 - final-train: https://hub.docker.com/repository/docker/kentregs/final-train
 - final-deploy: https://hub.docker.com/repository/docker/kentregs/final-deploy
 ---
-# Final project quickstart guide
+# Final Project Quickstart Guide
 ## Set-up Docker 
 Pull the latest version of the final-deploy container from dockerhub.
 ```
@@ -30,7 +31,9 @@ Verify the location of your Postman agent's working directory and store the imag
 
 ![](https://i.imgur.com/seIQCIo.gif)
 
-Upload the images to the working directory and prepare the request body of the POST request to the /invocations endpoint.  
+Upload the images to the working directory and prepare the POST request body that will be sent to the /invocations endpoint.  
+
+**Note: The bee and wasp images are in mynt-cadetship-docker-repo/final-project/data/**
 
 ![](https://i.imgur.com/mCQlH2q.png)
 
