@@ -10,7 +10,7 @@ RUN pip install -r requirements.txt
 ENV PATH=/home/train/.local/bin:$PATH
 COPY opt/ /home/train/opt/
 # switch back to root and change ownership of the /home/train/opt directory since
-# using chown while user is set to train outptus a permission denied error
+# using chown while user is set to train outputs a permission denied error
 USER root
 RUN chown -R train /home/train/opt
 # switch back to train in order to run the commands below
