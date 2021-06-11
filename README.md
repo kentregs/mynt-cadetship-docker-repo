@@ -37,7 +37,7 @@ Upload the images to the working directory and prepare the POST request body tha
 
 ![](https://i.imgur.com/mCQlH2q.png)
 
-Select **form-data** and fill in the keys from img_1 to img_10. Set the file type to **File** and upload the images that you stored in the **Postman working directory** in the previous step in the **VALUE** column.  
+Select **form-data** and fill in the keys with **img_1** to **img_10**. Afterwards, set the file type to **File** and upload the images that you stored in the **Postman working directory** in the previous step in the **VALUE** column.  
 
 The end result should look like so:
 
