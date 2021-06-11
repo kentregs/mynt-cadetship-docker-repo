@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+import pandas as pd
+import subprocess
+
+def deploy():
+    subprocess.call(['python3', 'wsgi.py'])
+    
+if __name__ == "__main__":
+    deploy()
