@@ -33,7 +33,7 @@ Verify the location of your Postman agent's working directory and store the imag
 
 Upload the images to the working directory and prepare the POST request body that will be sent to the /invocations endpoint.  
 
-**Note: The bee and wasp images are in mynt-cadetship-docker-repo/final-project/data/**
+**Note: The bee and wasp images are in 'mynt-cadetship-docker-repo/final-project/data/'**
 
 ![](https://i.imgur.com/mCQlH2q.png)
 
