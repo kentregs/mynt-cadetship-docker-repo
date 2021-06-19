@@ -59,4 +59,4 @@ Finally, send the request and wait for the response to be received.
 ---
 
 # Additional notes:
-The model training was performed in a GPU-accelerated Kaggle notebook and may be seen in **'mynt-cadetship-docker-repo/final-project/model training files/bee-vs-wasp-ntbk.ipynb'**
+The model training was performed in a GPU-accelerated Jupyter notebook on Kaggle and may be seen in **'mynt-cadetship-docker-repo/final-project/model training files/bee-vs-wasp-ntbk.ipynb'**
